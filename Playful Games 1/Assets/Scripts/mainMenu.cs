@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class mainMenu : MonoBehaviour {
 
-	void Update()
+    private void Start()
+    {
+       
+    }
+    void Update()
 	{
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;

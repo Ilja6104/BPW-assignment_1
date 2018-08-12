@@ -12,7 +12,7 @@ public class countdownTimer : MonoBehaviour {
 
 
 	void Start () {
-		timeRemaining = 10;
+		timeRemaining = 45;
 		textMesh = gameObject.GetComponent<TextMeshProUGUI> ();
 
 	}

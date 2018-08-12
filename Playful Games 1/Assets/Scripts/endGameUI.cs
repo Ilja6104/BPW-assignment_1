@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class endGameUI : MonoBehaviour {
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        shooterScript.bulletCount = 10;
+    }
     public void playAgain()
     {
         SceneManager.LoadScene(1);
